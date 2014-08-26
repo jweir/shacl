@@ -4,7 +4,7 @@ import "testing"
 
 func TestAddingToMemory(t *testing.T) {
 	i := Item{Title: "Hello World"}
-	m := CreateMemory()
+	m := CreateMemory("test.json")
 
 	m.Add(&i)
 
@@ -22,7 +22,7 @@ func TestAddingToMemory(t *testing.T) {
 
 func TestReadingAnItem(t *testing.T) {
 	i := &Item{Title: "Hello World"}
-	m := CreateMemory()
+	m := CreateMemory("test.json")
 
 	m.Add(i)
 
@@ -39,12 +39,12 @@ func TestReadingAnItem(t *testing.T) {
 
 func TestSavingAndLoadingMemory(t *testing.T) {
 	i := &Item{Title: "Hello World"}
-	m := CreateMemory()
+	m := CreateMemory("test.json")
 
 	m.Add(i)
 	m.Save()
 
-	b := CreateMemory()
+	b := CreateMemory("test.json")
 
 	if len(b.UnreadItems) != 0 {
 		t.Error("what is going here?")
@@ -56,4 +56,5 @@ func TestSavingAndLoadingMemory(t *testing.T) {
 		t.Error("Memory not loaded")
 	}
 
+	m.Destroy()
 }

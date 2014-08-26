@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
+	"os"
 )
 
 type Memory struct {
@@ -12,15 +13,14 @@ type Memory struct {
 
 	// The list of unread Items, once read they are gone for good
 	UnreadItems map[string]*Item
+
+	Filename string
 }
 
-func CreateMemory() *Memory {
-	m := &Memory{}
+func CreateMemory(f string) *Memory {
+	m := &Memory{Filename: f}
 	m.UnreadItems = make(map[string]*Item)
 	m.Index = make(map[string]bool)
-
-	// load Index
-	// load the UnReadItems
 
 	return m
 }
@@ -32,19 +32,34 @@ func (m *Memory) Save() bool {
 		log.Fatal(e)
 	}
 
-	e = ioutil.WriteFile("memory.json", b, 0666)
+	e = ioutil.WriteFile(m.Filename, b, 0666)
 
 	return true
 }
 
 func (m *Memory) Load() bool {
-	b, e := ioutil.ReadFile("memory.json")
+	b, e := ioutil.ReadFile(m.Filename)
 	if e != nil {
 		return false
 	}
 
 	json.Unmarshal(b, m)
 	return true
+}
+
+func (m *Memory) Destroy() bool {
+	e := os.Remove(m.Filename)
+	if e != nil {
+		return false
+	}
+
+	return true
+}
+
+func (m *Memory) Update(doc *Doc) {
+	for _, i := range doc.Items {
+		m.Add(i)
+	}
 }
 
 func (m *Memory) Add(i *Item) bool {

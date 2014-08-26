@@ -57,24 +57,18 @@ func fetch() *Doc {
 }
 
 func main() {
+	m := CreateMemory(".shacl.json")
+	m.Load()
+
 	// get latest doc
 	doc := fetch()
 
-	// set the hashes
-	doc.Setup()
+	m.Update(doc)
 
-	// filter out existing
-	// print the results
-
-	s := index(doc)
-
+	s := index(m)
 	fmt.Printf("%s", s.Bytes())
-}
 
-func (doc *Doc) Setup() {
-	for _, i := range doc.Items {
-		i.Sig()
-	}
+	m.Save()
 }
 
 func (i *Item) Sig() {
@@ -82,30 +76,30 @@ func (i *Item) Sig() {
 	i.Signature = hex.EncodeToString(sha1)
 }
 
-func index(doc *Doc) bytes.Buffer {
+func index(m *Memory) bytes.Buffer {
 	var b bytes.Buffer
 
 	s := `
-<doctype html>
-<html>
+	<doctype html>
+	<html>
 	<body>
-		<h1>{{len .Items}} items</h1>
-		{{range $i, $item := .Items}}
-			<div>
-				<h4>{{$item.Signature}} {{$item.Title}}</h4>
-				{{range $item.Encs}}
-					<img src="{{.Resource}}"/>
-				{{end}}
-			</div>
-			<hr/>
-		{{end}}
+	<h1>{{len .UnreadItems}} items</h1>
+	{{range $i, $item := .UnreadItems}}
+	<div>
+	<h4>{{$item.Signature}} {{$item.Title}}</h4>
+	{{range $item.Encs}}
+	<img src="{{.Resource}}"/>
+	{{end}}
+	</div>
+	<hr/>
+	{{end}}
 	</body>
-</html>
+	</html>
 	`
 
 	tmpl := template.Must(template.New("test").Parse(s))
 
-	e := tmpl.Execute(&b, doc)
+	e := tmpl.Execute(&b, m)
 
 	if e != nil {
 		log.Fatal(e)

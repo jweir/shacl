@@ -76,5 +76,5 @@ func (m *Memory) Add(i *Item) bool {
 
 func (m *Memory) Remove(i *Item) bool {
 	delete(m.UnreadItems, i.Signature)
-	return true
+	return m.Save()
 }

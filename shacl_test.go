@@ -35,6 +35,13 @@ func TestReadingAnItem(t *testing.T) {
 	if len(m.UnreadItems) != 0 {
 		t.Error("item not removed")
 	}
+
+	m.Add(i)
+
+	if len(m.UnreadItems) != 0 {
+		t.Error("item readded")
+	}
+
 }
 
 func TestSavingAndLoadingMemory(t *testing.T) {

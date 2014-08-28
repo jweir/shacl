@@ -35,11 +35,12 @@ type Enclosure struct {
 
 func fetch() *Doc {
 	r, e := http.Get(url)
-	defer r.Body.Close()
 
 	if e != nil {
 		log.Fatal(e)
 	}
+
+	defer r.Body.Close()
 
 	b, e := ioutil.ReadAll(r.Body)
 

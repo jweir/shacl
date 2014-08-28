@@ -78,3 +78,18 @@ func (m *Memory) Remove(i *Item) bool {
 	delete(m.UnreadItems, i.Signature)
 	return m.Save()
 }
+
+func (m *Memory) Refresh() bool {
+	o := len(m.UnreadItems)
+
+	for _, url := range urls() {
+		doc := fetch(url)
+		m.Update(doc)
+	}
+
+	n := len(m.UnreadItems)
+
+	log.Printf("Refreshed. %d new items. %d unread items", n-o, len(m.UnreadItems))
+
+	return m.Save()
+}

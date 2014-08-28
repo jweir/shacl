@@ -1,6 +1,10 @@
 package main
 
-import "testing"
+import (
+	"io/ioutil"
+	"log"
+	"testing"
+)
 
 func TestAddingToMemory(t *testing.T) {
 	i := Item{Title: "Hello World"}
@@ -64,4 +68,19 @@ func TestSavingAndLoadingMemory(t *testing.T) {
 	}
 
 	m.Destroy()
+}
+
+func TestParsing(t *testing.T) {
+	b, e := ioutil.ReadFile("sample.xml")
+
+	if e != nil {
+		log.Fatal(e)
+	}
+
+	doc := parse(b)
+
+	if len(doc.Items) != 3 {
+		t.Errorf("wrong items %d instead of 3", len(doc.Items))
+	}
+
 }

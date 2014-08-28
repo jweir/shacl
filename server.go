@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"text/template"
@@ -27,30 +26,6 @@ func StartServer(m *Memory) {
 		http.Redirect(w, r, "/", 302)
 	})
 
-	http.HandleFunc("/find", func(w http.ResponseWriter, r *http.Request) {
-		id := r.URL.Query()["id"][0]
-		item := m.UnreadItems[id]
-
-		log.Printf("%s\n%s\n", id, item.Link)
-
-		resp, e := http.Get(item.Link)
-
-		defer resp.Body.Close()
-
-		if e != nil {
-			log.Fatal(e)
-		}
-
-		b, e := ioutil.ReadAll(resp.Body)
-
-		if e != nil {
-			log.Fatal(e)
-		}
-
-		w.Header().Set("Content-Type", "text/html")
-		w.Write(b)
-	})
-
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
@@ -70,27 +45,41 @@ func index(m *Memory) bytes.Buffer {
 		text-decoration: none;
 		color: #333;
 	}
+
+	.item {
+		display: inline-block;
+		height: 450px;
+		width: 300px;
+		padding: 10px;
+		vertical-align: top;
+	}
+
+	.title {
+		height: 100px;
+	}
+
+	.image {
+		height: 300px;
+		width: 300px;
+		background: #EEE;
+	}
 	</style>
 	</head>
 	<body style="text-align: center">
-	<div style="width: 20%; margin: 20px auto; text-align: left; display: inline-block">
 	<h1>{{len .UnreadItems}} items</h1>
 	{{range .UnreadItems}}
-	<div>
-	<div><a href="/find?id={{.Signature}}" target="cl">{{.Title}}</a></div>
-	<div style="padding: 10px 0"><a style="border-radius: 4px; padding: 4px 8px; background: #600; color: #FFF; font-size: 10px" href="/remove?id={{.Signature}}"><b>Remove</b></a></div>
-		<a href="/find?id={{.Signature}}" target="cl">
-			{{range .Encs}}
-				<img src="{{.Resource}}"/>
-			{{end}}
-		</a>
+	<div class="item">
+		<div class="image">
+			<a href="{{.Link}}" target="_blank">
+				{{range .Encs}}
+					<img src="{{.Resource}}"/>
+				{{end}}
+			</a>
+		</div>
+		<div class="title"><a href="{{.Link}}" target="_blank">{{.Title}}</a></div>
+		<div style="padding: 10px 0"><a style="border-radius: 4px; padding: 4px 8px; background: #600; color: #FFF; font-size: 10px" href="/remove?id={{.Signature}}"><b>Remove</b></a></div>
 	</div>
-	<hr/>
 	{{end}}
-	</div>
-	<div style="width: 78%; display: inline-block; vertical-align: top">
-	<iframe src="" id="cl" name="cl" style="width: 100%; border: 0; height: 1000px"></iframe>
-	</div>
 	</body>
 	</html>
 	`

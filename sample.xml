@@ -1,0 +1,425 @@
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=900, public
+Last-Modified: Thu, 28 Aug 2014 16:12:04 GMT
+Transfer-Encoding: chunked
+Date: Thu, 28 Aug 2014 16:12:04 GMT
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+Set-Cookie: cl_b=DDXPDM4u5BGHMkc7Dwb1JAX+i8c;path=/;domain=.craigslist.org;expires=Fri, 01-Jan-2038 00:00:00 GMT
+Server: Apache
+Expires: Thu, 28 Aug 2014 16:27:04 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc#"
+ xmlns:ev="http://purl.org/rss/1.0/modules/event/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&#x26;amp;bedrooms=2&#x26;amp;format=rss&#x26;amp;nh=46&#x26;amp;nh=47&#x26;amp;nh=48&#x26;amp;nh=49&#x26;amp;nh=62&#x26;amp;nh=63&#x26;amp;nh=66&#x26;amp;s=0&#x26;amp;sale_date=-">
+<title>craigslist SF bay area | apts/housing for rent search </title>
+<link>http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&#x26;amp;bedrooms=2&#x26;amp;nh=46&#x26;amp;nh=47&#x26;amp;nh=48&#x26;amp;nh=49&#x26;amp;nh=62&#x26;amp;nh=63&#x26;amp;nh=66&#x26;amp;s=0&#x26;amp;sale_date=-</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:publisher>robot@craigslist.org</dc:publisher>
+<dc:creator>robot@craigslist.org</dc:creator>
+<dc:source>http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&#x26;amp;bedrooms=2&#x26;amp;format=rss&#x26;amp;nh=46&#x26;amp;nh=47&#x26;amp;nh=48&#x26;amp;nh=49&#x26;amp;nh=62&#x26;amp;nh=63&#x26;amp;nh=66&#x26;amp;s=0&#x26;amp;sale_date=-</dc:source>
+<dc:title>craigslist SF bay area | apts/housing for rent search </dc:title>
+<dc:type>Collection</dc:type>
+<syn:updateBase>2014-08-28T09:12:04-07:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4606839204.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4620692620.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4636095531.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4619880093.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640786047.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640674464.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4628568078.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640560993.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640476339.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4636865635.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4631634698.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640390239.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4628641152.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640231436.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640159584.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4630280224.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4640035903.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4639892513.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4629043830.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4639824478.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4625716401.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4639754817.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4629397197.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4639793191.html" />
+  <rdf:li rdf:resource="http://sfbay.craigslist.org/eby/apa/4592545802.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4606839204.html">
+<title><![CDATA[SF Bay Area Centrally Located Furnished Luxury Rental - 2 Yards (alameda) &#x0024;4975 5bd 3743sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4606839204.html</link>
+<description><![CDATA[Due to relocation for work, this newly constructed (2008) 5 Bedroom / 4 Bathroom furnished Bayport home will be available for rent on August 15th. 
+This 2 story home, ideally situated next to Oakland with easy access to San Francisco and San Jose off [...]]]></description>
+<dc:date>2014-08-28T07:47:25-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4606839204.html</dc:source>
+<dc:title><![CDATA[SF Bay Area Centrally Located Furnished Luxury Rental - 2 Yards (alameda) &#x0024;4975 5bd 3743sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00c0c_3xCR4KqNyMM_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-28T07:47:25-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4620692620.html">
+<title><![CDATA[PIEDMONT: LUXURY 5BD++, In-Law! CENTRAL PIEDMONT! GREAT SCHOOLS! PARK! (oakland piedmont / montclair) &#x0024;6700 5bd 3500sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4620692620.html</link>
+<description><![CDATA[PIEDMONT: 5++BD/3.5BA. Large, Exquisitely Charming, Remodeled, Traditional Executive-Style Home, In-Law with Kitchenette and Bath, in Central Piedmont by Park! Coveted Location...Walk to Highly Rated Schools, Parks, Recreation Dept., Sports Field & P [...]]]></description>
+<dc:date>2014-08-28T07:45:41-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4620692620.html</dc:source>
+<dc:title><![CDATA[PIEDMONT: LUXURY 5BD++, In-Law! CENTRAL PIEDMONT! GREAT SCHOOLS! PARK! (oakland piedmont / montclair) &#x0024;6700 5bd 3500sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00R0R_5ce8Xs6tbjb_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-28T07:45:41-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4636095531.html">
+<title><![CDATA[+5offices+large open spaces, secure flex use, Live-Work, 9th at Gilman (berkeley) &#x0024;4800 2bd 2400sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4636095531.html</link>
+<description><![CDATA[Upstairs Unit (door to the left) 
+• Seven private rooms plus three large open spaces. 
+• Natural lights everywhere via 10 windows and 6 skylights. 
+• Ideal for any professional office use such as engineering, R&D, Law offices, and also arts or crafts [...]]]></description>
+<dc:date>2014-08-28T06:47:59-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4636095531.html</dc:source>
+<dc:title><![CDATA[+5offices+large open spaces, secure flex use, Live-Work, 9th at Gilman (berkeley) &#x0024;4800 2bd 2400sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00H0H_5xtNmGGnhVd_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-28T06:47:59-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4619880093.html">
+<title><![CDATA[Very private beauty (oakland rockridge / claremont) &#x0024;6000 3bd 2700sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4619880093.html</link>
+<description><![CDATA[Dramatic architecture inside and out, a place for the adventuresome souls looking for something different and special. Reached only by long private driveway. Private fenced yard. Convenient slow barbeque. There is large studio inlaw in addition to th [...]]]></description>
+<dc:date>2014-08-28T04:49:25-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4619880093.html</dc:source>
+<dc:title><![CDATA[Very private beauty (oakland rockridge / claremont) &#x0024;6000 3bd 2700sqft]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2014-08-28T04:49:25-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640786047.html">
+<title><![CDATA[***House for Rent In Oakland Hills**** (oakland piedmont / montclair) &#x0024;4200 4bd 2500sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640786047.html</link>
+<description><![CDATA[House for Rent in Oakland Hills...4 bedroom, 3 bath house in the Beautiful forest setting Oakland Hills...Near Montclair for shopping and freeway nearby...Renovated kitchen with granite counter tops and tiled floor and new wood flooring in dining roo [...]]]></description>
+<dc:date>2014-08-28T00:20:21-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640786047.html</dc:source>
+<dc:title><![CDATA[***House for Rent In Oakland Hills**** (oakland piedmont / montclair) &#x0024;4200 4bd 2500sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00000_fak7iMJBjfP_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-28T00:20:21-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640674464.html">
+<title><![CDATA[Kensington View home 5mins to Berkeley Remodel (berkeley north / hills) &#x0024;3500 3bd]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640674464.html</link>
+<description><![CDATA[Kensington single family home 5mins drive to Berkeley large 3 bedroom 2 bath remodeled new grante counter top new cabnets new hardwood chreey color flood up date bathroom with tile floor new fiure washer dryer Refigerator dishwash many up grand with  [...]]]></description>
+<dc:date>2014-08-27T20:53:29-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640674464.html</dc:source>
+<dc:title><![CDATA[Kensington View home 5mins to Berkeley Remodel (berkeley north / hills) &#x0024;3500 3bd]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00X0X_3TBq0GqHypE_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T20:53:29-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4628568078.html">
+<title><![CDATA[Kensington w/GGBridge View home 5mins to Berkeley Remodel (berkeley north / hills) &#x0024;3500 3bd]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4628568078.html</link>
+<description><![CDATA[Kensington single family home 5mins drive to Berkeley large 3 bedroom 2 bath remodeled new grante counter top new cabinets new hardwood chreey color flood bookshelves balcony deck up date bathroom with tile floor new washer dryer Refrigerator dishwas [...]]]></description>
+<dc:date>2014-08-27T20:52:35-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4628568078.html</dc:source>
+<dc:title><![CDATA[Kensington w/GGBridge View home 5mins to Berkeley Remodel (berkeley north / hills) &#x0024;3500 3bd]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00X0X_3TBq0GqHypE_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T20:52:35-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640560993.html">
+<title><![CDATA[3 Bed 2 Bath Nice Wood floors (berkeley) &#x0024;3350 3bd 1100sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640560993.html</link>
+<description><![CDATA[Beautiful, recently remodeled , spacious 3bdrm 2 bath apartment with nice kitchen, filtered views of the yard, , three bedrooms and two full baths near the Berkeley Bowl market on Shattuck Avenue. This apartment is in a three unit building, located i [...]]]></description>
+<dc:date>2014-08-27T19:09:03-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640560993.html</dc:source>
+<dc:title><![CDATA[3 Bed 2 Bath Nice Wood floors (berkeley) &#x0024;3350 3bd 1100sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/01111_2ZplLhleLMW_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T19:09:03-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640476339.html">
+<title><![CDATA[Spacious 2x1 Aprtment ! Walking Distance to North Berkeley Bart (berkeley) &#x0024;2595 2bd 860sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640476339.html</link>
+<description><![CDATA[
+ <a href="/fb/sfo/apa/4640476339" class="showcontact" title="click to show contact info">show contact info</a>
+x138 BERKELEY APARTMENTS - RENAISSANCE VILLAS &nbsp;&nbsp;2 bedroom 2 bath &nbsp; 680sqft &nbsp; Please Call DESCRIPTION: This wonderful two bedroom home is perfect for the at home chef. Includes a large kitchen with lot [...]]]></description>
+<dc:date>2014-08-27T18:05:17-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640476339.html</dc:source>
+<dc:title><![CDATA[Spacious 2x1 Aprtment ! Walking Distance to North Berkeley Bart (berkeley) &#x0024;2595 2bd 860sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/01010_9Lqba9c2Mv9_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T18:05:17-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4636865635.html">
+<title><![CDATA[Beautiful Albany Hill Townhome!   (albany / el cerrito) &#x0024;2775 3bd]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4636865635.html</link>
+<description><![CDATA[Beautiful Albany town home with big city view! Immaculate condition with three bedrooms and two baths. Hardwood floors in living/dining room. Must see! 
+Address: 629 B Jackson Albany 
+I will be showing the home on Wednesday evening at 6:30pm. Please  [...]]]></description>
+<dc:date>2014-08-27T17:48:52-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4636865635.html</dc:source>
+<dc:title><![CDATA[Beautiful Albany Hill Townhome!   (albany / el cerrito) &#x0024;2775 3bd]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00w0w_4gBfupqNDzo_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T17:48:52-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4631634698.html">
+<title><![CDATA[Large Lightfilled Victorian Newly Remodeled (oakland piedmont / montclair) &#x0024;4150 3bd]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4631634698.html</link>
+<description><![CDATA[Our classic Victorian home is centrally located in the desirable Piedmont Avenue 
+neighborhood, within walking distance to cozy neighborhood cafés, groceries and shopping districts. All the classic Victorian elements, with all of the 
+modern amenitie [...]]]></description>
+<dc:date>2014-08-27T17:38:47-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4631634698.html</dc:source>
+<dc:title><![CDATA[Large Lightfilled Victorian Newly Remodeled (oakland piedmont / montclair) &#x0024;4150 3bd]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00L0L_62Jb4nM8Pju_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T17:38:47-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640390239.html">
+<title><![CDATA[Spanish Mediterranean Home perched in the Berkeley Hills with Views! (berkeley north / hills) &#x0024;4700 4bd]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640390239.html</link>
+<description><![CDATA[OPEN HOUSE FRIDAY @ 4:30-5:30PM!! Contact info: Sasha Bermudez | ERI Property Management & Rentals
+ <a href="/fb/sfo/apa/4640390239" class="showcontact" title="click to show contact info">show contact info</a>
+3BR/2+2BA Single Family House - Berkeley 900 Hilldale Ave, Berkeley, CA 94708 $4,700/mo KEY FEATURES Sq Footage: 2300 sqft. Bedrooms: 3  [...]]]></description>
+<dc:date>2014-08-27T16:43:07-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640390239.html</dc:source>
+<dc:title><![CDATA[Spanish Mediterranean Home perched in the Berkeley Hills with Views! (berkeley north / hills) &#x0024;4700 4bd]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00H0H_4CP9i5AC66g_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T16:43:07-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4628641152.html">
+<title><![CDATA[Excellent and Spacious Home on Oakland Hills (oakland piedmont / montclair) &#x0024;3950 5bd 3000sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4628641152.html</link>
+<description><![CDATA[Very spacious home on Oakland hills on the border with East Bay Regional Park. Very private in a quiet neighborhood at the end of cul-de-sac. The home is a split level, with entry level consisting of 3 bedrooms, 2 bathrooms, family, living, dinning,  [...]]]></description>
+<dc:date>2014-08-27T15:49:59-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4628641152.html</dc:source>
+<dc:title><![CDATA[Excellent and Spacious Home on Oakland Hills (oakland piedmont / montclair) &#x0024;3950 5bd 3000sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00m0m_8oO30T1liYg_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T15:49:59-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640231436.html">
+<title><![CDATA[Charming Cottage in Kensington - Great View! (berkeley north / hills) &#x0024;3325 2bd]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640231436.html</link>
+<description><![CDATA[Cozy and inviting home with a huge living room that has vaulted ceilings, original hardwood floors, fireplace, and french doors that open up to the deck. The kitchen is spacious and light filled with a window that looks out to the side yard, skylight [...]]]></description>
+<dc:date>2014-08-27T14:44:25-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640231436.html</dc:source>
+<dc:title><![CDATA[Charming Cottage in Kensington - Great View! (berkeley north / hills) &#x0024;3325 2bd]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00000_9QDBtVuTABH_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T14:44:25-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640159584.html">
+<title><![CDATA[OPEN TONIGHT 6:30-7:45PM (oakland rockridge / claremont) &#x0024;3250 4bd 1300sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640159584.html</link>
+<description><![CDATA[This 4bd 2ba apartment flat is located in a 4-plex & is conveniently located near Whole Foods, Berkeley Bowl, UCB, CCA, BART, Telegraph & Shattuck Ave bus lines, cafes, playgrounds, etc. It is perfect for biking and plenty of places to park your bike [...]]]></description>
+<dc:date>2014-08-27T14:00:46-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640159584.html</dc:source>
+<dc:title><![CDATA[OPEN TONIGHT 6:30-7:45PM (oakland rockridge / claremont) &#x0024;3250 4bd 1300sqft]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2014-08-27T14:00:46-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4630280224.html">
+<title><![CDATA[Beautiful home on san antonio ave (alameda) &#x0024;3000 3bd 2265sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4630280224.html</link>
+<description><![CDATA[This home is a lease to own property and is located near franklin park and encinal ave, you can lease this home from 1-5 years with option to refinance after your lease terms are up, credit will not be a problem, must have proof of income to get in 
+ [...]]]></description>
+<dc:date>2014-08-27T13:44:40-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4630280224.html</dc:source>
+<dc:title><![CDATA[Beautiful home on san antonio ave (alameda) &#x0024;3000 3bd 2265sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00B0B_9mIhnue70U4_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T13:44:40-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4640035903.html">
+<title><![CDATA[4br 2ba apartment flat utilities inc OPEN (oakland north / temescal) &#x0024;3250 4bd 1300sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4640035903.html</link>
+<description><![CDATA[Open House TODAY. 6:30pm - 7:30pm. Appointments every 15 minutes starting at 6:30pm. Let me know the time you'd like to come by.This 4 bedroom, 2 bathroom apartment flat is just 1 mile from UCB & is nicely removed from the bustle of campus and downto [...]]]></description>
+<dc:date>2014-08-27T12:57:38-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4640035903.html</dc:source>
+<dc:title><![CDATA[4br 2ba apartment flat utilities inc OPEN (oakland north / temescal) &#x0024;3250 4bd 1300sqft]]></dc:title>
+<dc:type>text</dc:type>
+<dcterms:issued>2014-08-27T12:57:38-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4639892513.html">
+<title><![CDATA[Oakland Border nr High 13 and 24 (berkeley) &#x0024;3085 3bd 1700sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4639892513.html</link>
+<description><![CDATA[On the 2nd level available Sept 15, 2014 
+beautiful Italian tile on the lower level, and hardwood/carpet on the upper floor comprising 3 bedrooms, bath, kitchen dining, living room , 
+fire place and two baths ; upper level , washer and dryer hook ups [...]]]></description>
+<dc:date>2014-08-27T11:33:31-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4639892513.html</dc:source>
+<dc:title><![CDATA[Oakland Border nr High 13 and 24 (berkeley) &#x0024;3085 3bd 1700sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00707_fGDGkTmomim_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T11:33:31-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4629043830.html">
+<title><![CDATA[Gorgeous 3++ BR Montclair retreat with a view and an au pair (oakland piedmont / montclair) &#x0024;4500 3bd 1862sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4629043830.html</link>
+<description><![CDATA[Hi. The house is currently for sale but it looks like I'm not going to be selling it. If you're interested in checking it out, I'm holding a last open house this Sunday, August 31st, from 1pm - 5pm (or by appt.) and I'll be there to answer any questi [...]]]></description>
+<dc:date>2014-08-27T11:18:19-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4629043830.html</dc:source>
+<dc:title><![CDATA[Gorgeous 3++ BR Montclair retreat with a view and an au pair (oakland piedmont / montclair) &#x0024;4500 3bd 1862sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00k0k_aLvYxWTDkrI_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T11:18:19-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4639824478.html">
+<title><![CDATA[Beautiful One of Kind 2bed2Bath Condo in Alameda Near Beach (alameda) &#x0024;2800 2bd 1518sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4639824478.html</link>
+<description><![CDATA[Contact info: Kelly Tran, Realtor | Cerda Zein Real Estate
+ <a href="/fb/sfo/apa/4639824478" class="showcontact" title="click to show contact info">show contact info</a>
+Gorgeous and spacious one of a kind condo in Alameda 950 Shorepoint Ct #104, Alameda, CA 94501 $2,800/mo KEY FEATURES Year Built: 1972 Sq Footage: 1518 sqft. Bedrooms: 2 Beds B [...]]]></description>
+<dc:date>2014-08-27T11:17:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4639824478.html</dc:source>
+<dc:title><![CDATA[Beautiful One of Kind 2bed2Bath Condo in Alameda Near Beach (alameda) &#x0024;2800 2bd 1518sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00j0j_3a4Ax6284z2_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T11:17:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4625716401.html">
+<title><![CDATA[ALBANY - 2BD/2BA Condo at Bayside Commons. (albany / el cerrito) &#x0024;2500 2bd 1170sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4625716401.html</link>
+<description><![CDATA[535 Pierce Street #5302, Albany 
+Welcome home! 
+Fabulous 2 bedroom 2 bath condo for rent in Albany. This 2nd floor unit features laundry room inside the unit, wood burning fireplace and private balcony. 
+Secure garage parking spot included. 
+Gated co [...]]]></description>
+<dc:date>2014-08-27T11:02:46-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4625716401.html</dc:source>
+<dc:title><![CDATA[ALBANY - 2BD/2BA Condo at Bayside Commons. (albany / el cerrito) &#x0024;2500 2bd 1170sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00w0w_iukFjyIEP7E_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T11:02:46-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4639754817.html">
+<title><![CDATA[Call for Details, Modern Design, Pets Welcome (alameda) &#x0024;3500 3bd 1170sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4639754817.html</link>
+<description><![CDATA[Often in the Bay Area, compromises must be made when choosing an apartment. When you visit Panomar Apartments, you'll quickly discover that you can have everything on your check list. 
+Panomar is still in the final construction stages, so we are unab [...]]]></description>
+<dc:date>2014-08-27T10:58:32-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4639754817.html</dc:source>
+<dc:title><![CDATA[Call for Details, Modern Design, Pets Welcome (alameda) &#x0024;3500 3bd 1170sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00101_iRqvRYuzlcN_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T10:58:32-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4629397197.html">
+<title><![CDATA[Great Hiller Highlands Home Above Caldecott Tunnel -  Pet Friendly (oakland rockridge / claremont) &#x0024;3200 3bd 2196sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4629397197.html</link>
+<description><![CDATA[Oakland Hills Home Above Caldecott Tunnel - Pet Friendly 2550 Tunnel Rd, Oakland, CA 94611 $3,200/mo KEY FEATURES Year Built: 1995 Sq Footage: 2196 sqft. Bedrooms: 3 Beds Bathrooms: 1 Bath Parking: 2 Off street Lease Duration: 1 Year (See Details Bel [...]]]></description>
+<dc:date>2014-08-27T10:46:04-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4629397197.html</dc:source>
+<dc:title><![CDATA[Great Hiller Highlands Home Above Caldecott Tunnel -  Pet Friendly (oakland rockridge / claremont) &#x0024;3200 3bd 2196sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00P0P_igGYKeCEkZf_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T10:46:04-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4639793191.html">
+<title><![CDATA[Great Montclair Hills Home - Pet Negotialble (oakland piedmont / montclair) &#x0024;4950 3bd 2576sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4639793191.html</link>
+<description><![CDATA[Colton Blvd, Oakland, CA 94611 
+$4,950/mo 
+Year Built: 1946 
+Sq Footage: 2576 sqft. 
+Single Family House, 3 bedrooms - including master suite, 2.5 baths 
+Larger updated eat-in kitchen with granite counter tops - gas stove & Bosch dishwasher 
+Living R [...]]]></description>
+<dc:date>2014-08-27T10:42:05-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4639793191.html</dc:source>
+<dc:title><![CDATA[Great Montclair Hills Home - Pet Negotialble (oakland piedmont / montclair) &#x0024;4950 3bd 2576sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00I0I_9WtjVRgSL8r_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T10:42:05-07:00</dcterms:issued>
+</item>
+<item rdf:about="http://sfbay.craigslist.org/eby/apa/4592545802.html">
+<title><![CDATA[Adorable Cottage, fenced yard. NO SHARED WALLS! (alameda) &#x0024;2725 3bd 975sqft]]></title>
+<link>http://sfbay.craigslist.org/eby/apa/4592545802.html</link>
+<description><![CDATA[Available now. Please call for an appointment and the address. 
+NO SHARED WALLS! This is a quiet, sunny, stand-alone house. There is a smaller cottage in the rear where I live. 
+Completely remodeled in 2011. 
+Your own house on a lot shared with the l [...]]]></description>
+<dc:date>2014-08-27T10:19:09-07:00</dc:date>
+<dc:language>en-us</dc:language>
+<dc:rights>&#x26;copy; 2014 &#x3C;span class="desktop"&#x3E;craigslist&#x3C;/span&#x3E;&#x3C;span class="mobile"&#x3E;CL&#x3C;/span&#x3E;</dc:rights>
+<dc:source>http://sfbay.craigslist.org/eby/apa/4592545802.html</dc:source>
+<dc:title><![CDATA[Adorable Cottage, fenced yard. NO SHARED WALLS! (alameda) &#x0024;2725 3bd 975sqft]]></dc:title>
+<dc:type>text</dc:type>
+<enc:enclosure resource="http://images.craigslist.org/00L0L_gt8oOsZzkvT_300x300.jpg" type="image/jpeg"/>
+<dcterms:issued>2014-08-27T10:19:09-07:00</dcterms:issued>
+</item>
+</rdf:RDF>

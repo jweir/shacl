@@ -14,8 +14,20 @@ import (
 
 func urls() []string {
 	return []string{
-		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&bedrooms=2&nh=46&nh=47&nh=48&nh=49&nh=62&nh=63&nh=66&s=0&sale_date=-&format=rss",
-		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=3&bedrooms=1&nh=46&nh=47&nh=48&nh=49&nh=62&nh=63&nh=66&s=0&sale_date=-&format=rss",
+		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&bedrooms=2&nh=46&nh=47&nh=48&nh=49&nh=59&nh=60&nh=61&nh=62&nh=63&nh=66&s=0&sale_date=-&format=rss",
+		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&bedrooms=2&maxAsk=4000&minAsk=1800&nh=112&format=rss",
+		"http://sfbay.craigslist.org/search/sfc/apa?bathrooms=2&bedrooms=2&maxAsk=3500&minAsk=1800&format=rss",
+		"http://sfbay.craigslist.org/search/pen/apa?bathrooms=2&bedrooms=2&maxAsk=3500&minAsk=1800&nh=73&nh=75&nh=82&nh=89&format=rss",
+		// "http://sfbay.craigslist.org/search/nby/apa?bathrooms=2&bedrooms=2&maxAsk=3500&minAsk=1800&nh=102&nh=104&nh=105&format=rss",
+		// "http://sfbay.craigslist.org/search/eby/apa?bathrooms=2&bedrooms=2&maxAsk=4000&minAsk=1800&nh=52&nh=57&nh=69&format=rss",
+
+		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=1&bedrooms=3&nh=46&nh=47&nh=48&nh=49&nh=59&nh=60&nh=61&nh=62&nh=63&nh=66&s=0&sale_date=-&format=rss",
+		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=1&bedrooms=3&nh=46&nh=47&nh=48&nh=49&nh=59&nh=60&nh=61&nh=62&nh=63&nh=66&s=0&sale_date=-&format=rss",
+		"http://sfbay.craigslist.org/search/eby/apa?bathrooms=1&bedrooms=3&maxAsk=4000&minAsk=1800&nh=112&format=rss",
+		"http://sfbay.craigslist.org/search/sfc/apa?bathrooms=1&bedrooms=3&maxAsk=3500&minAsk=1800&format=rss",
+		"http://sfbay.craigslist.org/search/pen/apa?bathrooms=1&bedrooms=3&maxAsk=3500&minAsk=1800&nh=73&nh=75&nh=82&nh=89&format=rss",
+		// "http://sfbay.craigslist.org/search/nby/apa?bathrooms=1&bedrooms=3&maxAsk=3500&minAsk=1800&nh=102&nh=104&nh=105&format=rss",
+		// "http://sfbay.craigslist.org/search/eby/apa?bathrooms=1&bedrooms=3&maxAsk=4000&minAsk=1800&nh=52&nh=57&nh=69&format=rss",
 	}
 }
 
@@ -40,11 +52,12 @@ type Enclosure struct {
 	Type     string `xml:"type,attr"`
 }
 
-func fetch(url string) *Doc {
+func fetch(url string) (*Doc, error) {
 	r, e := http.Get(url)
 
 	if e != nil {
-		log.Fatal(e)
+		log.Printf("Error: %s", e)
+		return &Doc{}, e
 	}
 
 	defer r.Body.Close()
@@ -52,10 +65,11 @@ func fetch(url string) *Doc {
 	b, e := ioutil.ReadAll(r.Body)
 
 	if e != nil {
-		log.Fatal(e)
+		log.Printf("Error: %s", e)
+		return &Doc{}, e
 	}
 
-	return parse(b)
+	return parse(b), nil
 }
 
 func parse(b []byte) *Doc {

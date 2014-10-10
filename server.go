@@ -26,6 +26,11 @@ func StartServer(m *Memory) {
 		http.Redirect(w, r, "/", 302)
 	})
 
+	http.HandleFunc("/refresh", func(w http.ResponseWriter, r *http.Request) {
+		m.Refresh()
+		http.Redirect(w, r, "/", 302)
+	})
+
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
@@ -64,11 +69,24 @@ func index(m *Memory) bytes.Buffer {
 		background: #EEE;
 	}
 	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$(".remove").click(function(){
+			var i = $(this)
+			$.get(i.data('url'))
+			i.parents('.item').fadeOut(100)
+			return false;
+		})
+	})
+	</script>
+
 	</head>
 	<body style="text-align: center">
 	<h1>{{len .UnreadItems}} items</h1>
+	<div><a href="/refresh">Refresh</a></div>
 	{{range .UnreadItems}}
-	<div class="item">
+	<div class="item" >
 		<div class="image">
 			<a href="{{.Link}}" target="_blank">
 				{{range .Encs}}
@@ -77,7 +95,7 @@ func index(m *Memory) bytes.Buffer {
 			</a>
 		</div>
 		<div class="title"><a href="{{.Link}}" target="_blank">{{.Title}}</a></div>
-		<div style="padding: 10px 0"><a style="border-radius: 4px; padding: 4px 8px; background: #600; color: #FFF; font-size: 10px" href="/remove?id={{.Signature}}"><b>Remove</b></a></div>
+		<div style="padding: 10px 0"><a class="remove" style="border-radius: 4px; padding: 4px 8px; background: #600; color: #FFF; font-size: 10px" data-url="/remove?id={{.Signature}}" href="#"><b>Remove</b></a></div>
 	</div>
 	{{end}}
 	</body>

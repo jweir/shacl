@@ -83,7 +83,7 @@ func (m *Memory) Refresh() bool {
 	o := len(m.UnreadItems)
 
 	for _, url := range urls() {
-		doc := fetch(url)
+		doc, _ := fetch(url)
 		m.Update(doc)
 	}
 
